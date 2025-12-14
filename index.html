@@ -169,27 +169,50 @@
     </section>
 
 
-    <!-- Certificates -->
-<section class="card">
-  <h2>Certificates</h2>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Links</title>
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
 
-  <div class="info-grid">
-    <div class="project">
-      <h3>Certificate CSS</h3>
-      <img src="https://simpli-web.app.link/e/PCzQOM3Z4Yb">
-    </div>
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
 
-    <div class="project">
-      <h3>Certificate JAVASCRIPT</h3>
-      <img src="https://simpli-web.app.link/e/nwT1a9BZ4Yb">
-    </div>
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
 
-    <div class="project">
-      <h3>Certificate HTML</h3>
-      <img src="https://simpli-web.app.link/e/IhBVZs5Z4Yb">
-    </div>
+  <h2>My Certificates</h2>
+
+  <div class="gallery">
+    <a href="https://simpli-web.app.link/e/IhBVZs5Z4Yb" target="_blank">
+      <img src="cert1.jpg" alt="Certificate 1">
+    </a>
+
+    <a href="cert2.jpg" target="_blank">
+      <img src="https://simpli-web.app.link/e/PCzQOM3Z4Yb" alt="Certificate 2">
+    </a>
+
+    <a href="cert3.jpg" target="_blank">
+      <img src="https://simpli-web.app.link/e/nwT1a9BZ4Yb" alt="Certificate 3">
+    </a>
   </div>
-</section>
+
+</body>
+</html>
 
   </main>
 
@@ -199,4 +222,5 @@
 
 </body>
 </html>
+
 
